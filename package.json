@@ -1,0 +1,35 @@
+{
+  "name": "namaste-1",
+  "version": "1.0.0",
+  "description": "this is react by prasanth",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prasanth2721/virgil-react-1.git"
+  },
+  "keywords": [
+    "react",
+    "prasanth"
+  ],
+  "author": "virgil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prasanth2721/virgil-react-1/issues"
+  },
+  "homepage": "https://github.com/Prasanth2721/virgil-react-1#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsers list": [
+    "last 2 versions"
+  ]
+}
