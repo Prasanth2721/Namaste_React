@@ -61,6 +61,8 @@ const resList = [
 			areaName: 'Puducherry',
 			costForTwo: '₹300 for two',
 			cuisines: ['South Indian', 'North Indian', 'Sweets', 'Chinese'],
+			avgRating: 4.5,
+			deliveryTime: 25,
 			veg: true,
 			parentId: '22',
 			totalRatingsString: '10K+',
@@ -120,7 +122,8 @@ const resList = [
 			},
 			widgetId: 'collectionV5RestaurantListWidget_SimRestoRelevance_food_seo',
 		},
-
+	},
+	{
 		info: {
 			id: '78970',
 			name: 'Surguru',
@@ -130,6 +133,7 @@ const resList = [
 			costForTwo: '₹250 for two',
 			cuisines: ['South Indian', 'North Indian'],
 			avgRating: 4.5,
+			deliveryTime: 25,
 			veg: true,
 			parentId: '6369',
 			avgRatingString: '4.5',
@@ -196,6 +200,102 @@ const resList = [
 		},
 		cta: {
 			link: 'https://www.swiggy.com/restaurants/surguru-gandhinagar-100-feet-rd-pondicherry-78970',
+			text: 'RESTAURANT_MENU',
+			type: 'WEBLINK',
+		},
+		widgetId: 'collectionV5RestaurantListWidget_SimRestoRelevance_food_seo',
+	},
+	{
+		info: {
+			id: '377939',
+			name: 'Hotel Sri Aryaas',
+			cloudinaryImageId: 'ttmym4b2zgw0f33qun6j',
+			locality: 'Mudaliarpet',
+			areaName: 'Reddiyarpalayam',
+			costForTwo: '₹250 for two',
+			cuisines: ['South Indian', 'North Indian', 'Chinese'],
+			avgRating: 4.5,
+			deliveryTime: 14,
+			veg: true,
+			parentId: '102617',
+			avgRatingString: '4.5',
+			totalRatingsString: '5K+',
+			sla: {
+				deliveryTime: 14,
+				lastMileTravel: 1.3,
+				serviceability: 'SERVICEABLE',
+				slaString: '10-15 mins',
+				lastMileTravelString: '1.3 km',
+				iconType: 'ICON_TYPE_EMPTY',
+			},
+			availability: {
+				nextCloseTime: '2024-03-20 15:30:00',
+				opened: true,
+			},
+			badges: {
+				imageBadges: [
+					{
+						imageId: 'v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png',
+						description: 'OnlyOnSwiggy',
+					},
+					{
+						imageId: 'v1695133679/badges/Pure_Veg111.png',
+						description: 'pureveg',
+					},
+				],
+			},
+			isOpen: true,
+			type: 'F',
+			badgesV2: {
+				entityBadges: {
+					imageBased: {
+						badgeObject: [
+							{
+								attributes: {
+									description: 'OnlyOnSwiggy',
+									imageId:
+										'v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png',
+								},
+							},
+							{
+								attributes: {
+									description: 'pureveg',
+									imageId: 'v1695133679/badges/Pure_Veg111.png',
+								},
+							},
+						],
+					},
+					textBased: {},
+					textExtendedBadges: {},
+				},
+			},
+			aggregatedDiscountInfoV3: {
+				header: '20% OFF',
+				subHeader: 'UPTO ₹50',
+			},
+			orderabilityCommunication: {
+				title: {},
+				subTitle: {},
+				message: {},
+				customIcon: {},
+			},
+			differentiatedUi: {
+				displayType: 'ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT',
+				differentiatedUiMediaDetails: {
+					mediaType: 'ADS_MEDIA_ENUM_IMAGE',
+					lottie: {},
+					video: {},
+				},
+			},
+			reviewsSummary: {},
+			displayType: 'RESTAURANT_DISPLAY_TYPE_DEFAULT',
+			restaurantOfferPresentationInfo: {},
+		},
+		analytics: {
+			context: 'seo-data-54dec03d-ee15-416a-a18c-857695609337',
+		},
+		cta: {
+			link: 'https://www.swiggy.com/restaurants/hotel-sri-aryaas-mudaliarpet-reddiyarpalayam-pondicherry-377939',
 			text: 'RESTAURANT_MENU',
 			type: 'WEBLINK',
 		},
