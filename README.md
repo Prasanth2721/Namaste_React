@@ -20,3 +20,21 @@
 -Tree Shaking (remove unused codes)
 -different dev and production bundle
 
+
+# export/import
+
+-default
+export default component;
+import component from "path";
+
+-named
+export const component;
+import {component} from "path";
+
+# React Hooks
+(normal JS utility functions)
+
+ -useState() - super powerful state variable in react
+ -useEffect() -
+
+

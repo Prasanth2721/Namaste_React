@@ -28,9 +28,10 @@
 }
 
 .res-card{
-    margin: 5px;
-    width: 210px;
-    height: 310px;
+    margin: 7px;
+    width: 200px;
+    height: 350px;
+    align-self:center;
     border: 1px solid burlywood;
 }
 .res-card:hover{
@@ -45,4 +46,8 @@
     margin: -6px;
     height:95px;
     width:100%;
+}
+.filter-btn{
+    padding:10px;
+    cursor: pointer;
 }
